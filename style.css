@@ -155,6 +155,50 @@ color:white;
 padding:20px;
 text-align:center;
 }
+.top-bar{
+background:#083b4c;
+color:white;
+padding:8px 0;
+font-size:14px;
+}
+
+.top-content{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.main-header{
+background:linear-gradient(90deg,#0f5c72,#1e88a8);
+padding:15px 0;
+}
+
+.header-content{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+height:60px;
+}
+
+.small-btn{
+padding:8px 18px;
+font-size:14px;
+}
+
+nav ul{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
 
 .floating-whatsapp{
 position:fixed;
