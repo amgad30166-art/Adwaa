@@ -12,21 +12,35 @@
 
 <body>
 
-<header>
-<img src="assets/logo.png" alt="logo">
 
-<nav>
-<ul>
-<li><a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
-<li><a href="about.html" data-ar="من نحن" data-en="About">من نحن</a></li>
-<li><a href="mission.html" data-ar="رسالتنا" data-en="Mission">رسالتنا</a></li>
-<li><a href="countries.html" data-ar="الدول" data-en="Countries">الدول</a></li>
-<li><a href="contact.html" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a></li>
-</ul>
-</nav>
+<!-- TOP BAR -->
+<div class="top-bar">
+    <div class="container top-content">
+        <span>شركة أضواء الرديف للاستقدام</span>
+        <span>📞 0543281015</span>
+        <button onclick="toggleLang()" class="lang-btn">EN</button>
+    </div>
+</div>
 
-<button onclick="toggleLang()" class="lang-btn">EN</button>
+<!-- MAIN NAV -->
+<header class="main-header">
+    <div class="container header-content">
+        <img src="assets/logo.png" class="logo">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="about.html">من نحن</a></li>
+                <li><a href="mission.html">رسالتنا</a></li>
+                <li><a href="countries.html">الدول</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+            </ul>
+        </nav>
+
+        <a href="contact.html" class="primary-btn small-btn">اطلب الآن</a>
+    </div>
 </header>
+
 
 <section class="hero">
 <div class="hero-content">
