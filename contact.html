@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>تواصل معنا | شركة أضواء الرديف للاستقدام</title>
+    <meta name="description" content="تواصل مع شركة أضواء الرديف للاستقدام - اطلب استقدام عمالة منزلية الآن. الرياض - حي النهضة. اتصل: 0543281015">
+    <meta name="keywords" content="تواصل, طلب استقدام, رقم الاستقدام, الرياض">
+    <meta name="robots" content="index, follow">
+    
+    <link rel="canonical" href="https://yourwebsite.com/contact.html">
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+    <div class="container top-content">
+        <span>شركة أضواء الرديف للاستقدام</span>
+        <div class="top-contact">
+            <a href="tel:+966543281015" class="phone-link">
+                <span class="phone-icon">📞</span>
+                <span>0543281015</span>
+            </a>
+            <button onclick="toggleLang()" class="lang-btn" aria-label="تغيير اللغة">EN</button>
+        </div>
+    </div>
+</div>
+
+<!-- MAIN NAV -->
+<header class="main-header">
+    <div class="container header-content">
+        <a href="index.html" aria-label="الصفحة الرئيسية">
+            <img src="assets/logo.png" alt="شعار شركة أضواء الرديف للاستقدام" class="logo">
+        </a>
+
+        <button class="mobile-menu-toggle" onclick="toggleMobileMenu()" aria-label="القائمة">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+                <li><a href="about.html" data-ar="من نحن" data-en="About Us">من نحن</a></li>
+                <li><a href="mission.html" data-ar="رسالتنا" data-en="Our Mission">رسالتنا</a></li>
+                <li><a href="countries.html" data-ar="الدول" data-en="Countries">الدول</a></li>
+                <li><a href="contact.html" class="active" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a></li>
+            </ul>
+        </nav>
+
+        <a href="contact.html" class="primary-btn small-btn" data-ar="اطلب الآن" data-en="Order Now">اطلب الآن</a>
+    </div>
+</header>
+
+<!-- PAGE HEADER -->
+<section class="page-header">
+    <h1 data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</h1>
+</section>
+
+<!-- CONTACT FORM SECTION -->
+<section class="section">
+    <div class="container">
+        <div class="contact-wrapper">
+            <div class="contact-form-container">
+                <h2 data-ar="طلب استقدام" data-en="Recruitment Request">طلب استقدام</h2>
+                <p data-ar="املأ النموذج وسنتواصل معك في أقرب وقت" data-en="Fill the form and we'll contact you soon">املأ النموذج وسنتواصل معك في أقرب وقت</p>
+                
+                <form id="whatsappForm" class="form-box">
+                    <div class="form-group">
+                        <label for="name" data-ar="الاسم الكامل" data-en="Full Name">الاسم الكامل</label>
+                        <input type="text" id="name" name="name" placeholder="أدخل اسمك الكامل" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone" data-ar="رقم الجوال" data-en="Mobile Number">رقم الجوال</label>
+                        <input type="tel" id="phone" name="phone" placeholder="05xxxxxxxx" required pattern="[0-9]{10}">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="city" data-ar="المدينة" data-en="City">المدينة</label>
+                        <input type="text" id="city" name="city" placeholder="مثال: الرياض" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="country" data-ar="الدولة المطلوبة" data-en="Required Country">الدولة المطلوبة</label>
+                        <select id="country" name="country" required>
+                            <option value="">اختر الدولة</option>
+                            <option value="كينيا">كينيا</option>
+                            <option value="أوغندا">أوغندا</option>
+                            <option value="إثيوبيا">إثيوبيا</option>
+                            <option value="الفلبين">الفلبين</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="notes" data-ar="ملاحظات إضافية (اختياري)" data-en="Additional Notes">ملاحظات إضافية (اختياري)</label>
+                        <textarea id="notes" name="notes" rows="4" placeholder="أي متطلبات خاصة أو ملاحظات"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="primary-btn large-btn">
+                        <span data-ar="إرسال الطلب عبر واتساب" data-en="Send via WhatsApp">إرسال الطلب عبر واتساب</span> 💬
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT INFO SECTION -->
+<section class="section light">
+    <div class="container">
+        <h2 data-ar="معلومات التواصل" data-en="Contact Information">معلومات التواصل</h2>
+        
+        <div class="contact-info-grid">
+            <div class="contact-info-card">
+                <div class="contact-icon">📞</div>
+                <h3 data-ar="اتصل بنا" data-en="Call Us">اتصل بنا</h3>
+                <p><a href="tel:+966543281015">0543281015</a></p>
+                <p class="contact-note" data-ar="متاح من السبت إلى الخميس" data-en="Available Sat-Thu">متاح من السبت إلى الخميس</p>
+            </div>
+            
+            <div class="contact-info-card">
+                <div class="contact-icon">💬</div>
+                <h3 data-ar="واتساب" data-en="WhatsApp">واتساب</h3>
+                <p><a href="https://wa.me/966543281015" target="_blank" rel="noopener">0543281015</a></p>
+                <p class="contact-note" data-ar="رد سريع على الواتساب" data-en="Quick WhatsApp response">رد سريع على الواتساب</p>
+            </div>
+            
+            <div class="contact-info-card">
+                <div class="contact-icon">📍</div>
+                <h3 data-ar="العنوان" data-en="Address">العنوان</h3>
+                <p>الرياض - حي النهضة</p>
+                <p class="contact-note" data-ar="المملكة العربية السعودية" data-en="Saudi Arabia">المملكة العربية السعودية</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- MAP SECTION -->
+<section class="section map-section">
+    <div class="container">
+        <h2 data-ar="موقعنا على الخريطة" data-en="Our Location">موقعنا على الخريطة</h2>
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.8447!2d46.7!3d24.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDQyJzAwLjAiTiA0NsKwNDInMDAuMCJF!5e0!3m2!1sar!2ssa!4v1234567890"
+                width="100%" 
+                height="400" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy"
+                title="موقع شركة أضواء الرديف على الخريطة">
+            </iframe>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section class="section light">
+    <div class="container">
+        <h2 data-ar="الأسئلة الشائعة" data-en="FAQ">الأسئلة الشائعة</h2>
+        
+        <div class="faq-container">
+            <div class="faq-item">
+                <h3 data-ar="كم تستغرق عملية الاستقدام؟" data-en="How long does recruitment take?">كم تستغرق عملية الاستقدام؟</h3>
+                <p data-ar="عادة تستغرق عملية الاستقدام من 4 إلى 8 أسابيع حسب الدولة والإجراءات المطلوبة." data-en="Usually takes 4-8 weeks">عادة تستغرق عملية الاستقدام من 4 إلى 8 أسابيع حسب الدولة والإجراءات المطلوبة.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3 data-ar="ما هي الأوراق المطلوبة؟" data-en="Required documents?">ما هي الأوراق المطلوبة؟</h3>
+                <p data-ar="نحتاج إلى نسخة من الهوية الوطنية وعقد الإيجار أو صك الملكية، وسنساعدك في باقي الإجراءات." data-en="ID copy and rental contract">نحتاج إلى نسخة من الهوية الوطنية وعقد الإيجار أو صك الملكية، وسنساعدك في باقي الإجراءات.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3 data-ar="هل توفرون ضمانات؟" data-en="Do you provide guarantees?">هل توفرون ضمانات؟</h3>
+                <p data-ar="نعم، نوفر فترة ضمان وفق الأنظمة المعتمدة، ونتابع معك لضمان رضاك التام." data-en="Yes, warranty period included">نعم، نوفر فترة ضمان وفق الأنظمة المعتمدة، ونتابع معك لضمان رضاك التام.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container footer-content">
+        <div class="footer-section">
+            <img src="assets/logo.png" alt="شعار أضواء الرديف" class="footer-logo">
+            <p data-ar="شركة أضواء الرديف للاستقدام" data-en="Adwaa Alradef Recruitment">شركة أضواء الرديف للاستقدام</p>
+        </div>
+        
+        <div class="footer-section">
+            <h4 data-ar="روابط سريعة" data-en="Quick Links">روابط سريعة</h4>
+            <ul class="footer-links">
+                <li><a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+                <li><a href="about.html" data-ar="من نحن" data-en="About">من نحن</a></li>
+                <li><a href="mission.html" data-ar="رسالتنا" data-en="Mission">رسالتنا</a></li>
+                <li><a href="countries.html" data-ar="الدول" data-en="Countries">الدول</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-section">
+            <h4 data-ar="تواصل معنا" data-en="Contact">تواصل معنا</h4>
+            <p>📞 <a href="tel:+966543281015">0543281015</a></p>
+            <p>📍 الرياض - حي النهضة</p>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>© 2026 شركة أضواء الرديف للاستقدام - <span data-ar="جميع الحقوق محفوظة" data-en="All rights reserved">جميع الحقوق محفوظة</span></p>
+    </div>
+</footer>
+
+<a href="https://wa.me/966543281015" class="floating-whatsapp" target="_blank" rel="noopener" aria-label="تواصل عبر واتساب">💬</a>
+
+<script src="script.js"></script>
+</body>
+</html>
