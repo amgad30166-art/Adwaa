@@ -3,7 +3,8 @@ Allow: /
 Disallow: /admin/
 Disallow: /private/
 
-Sitemap: https://yourwebsite.com/sitemap.xml
+Sitemap: https://adwaaalradeef.online/sitemap.xml
+
 
 # Crawl-delay
 Crawl-delay: 10
