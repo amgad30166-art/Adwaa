@@ -1096,3 +1096,14 @@ footer {
         display: none;
     }
 }
+.dev-credit {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.dev-credit:hover {
+    color: #25D366;
+    text-shadow: 0 0 8px rgba(37, 211, 102, 0.6);
+}
