@@ -1147,3 +1147,15 @@ footer {
     color: #25D366;
     text-shadow: 0 0 8px rgba(37, 211, 102, 0.6);
 }
+.company-name {
+    font-family: 'Cairo', sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.hero-subtitle {
+    font-size: 22px;
+    font-weight: 400;
+}
