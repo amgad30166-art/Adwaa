@@ -120,7 +120,7 @@ if (whatsappForm) {
         }
 
         // Create WhatsApp URL
-        const whatsappNumber = "966543281015";
+        const whatsappNumber = "966500808111";
         const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
         
         // Open WhatsApp in new tab
