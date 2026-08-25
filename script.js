@@ -1,3 +1,15 @@
+// ===== FIXED HEADER OFFSET =====
+// .site-header-fixed uses position:fixed, so push page content down by its height.
+function adjustFixedHeaderOffset() {
+    const fixedHeader = document.querySelector('.site-header-fixed');
+    if (fixedHeader) {
+        document.body.style.paddingTop = fixedHeader.offsetHeight + 'px';
+    }
+}
+window.addEventListener('DOMContentLoaded', adjustFixedHeaderOffset);
+window.addEventListener('load', adjustFixedHeaderOffset);
+window.addEventListener('resize', adjustFixedHeaderOffset);
+
 // ===== LANGUAGE TOGGLE =====
 let currentLang = "ar";
 
